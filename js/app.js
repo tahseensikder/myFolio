@@ -33,6 +33,7 @@ $(function(){
         $('#nav_bar').removeClass('menu_animate')
     }
    })
+   //Slider
    $('.banner_slider').slick({
     prevArrow:'<i class="slider_icon fas fa-angle-left"></i>',
     nextArrow:'<i class="slider_icon fas fa-angle-right"></i>',
@@ -43,4 +44,6 @@ $(function(){
     dots: true,
     dotsClass: 'banner_slider_dots'
     })
+    //AOS Slider
+    AOS.init();
 })

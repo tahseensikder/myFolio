@@ -36,7 +36,7 @@ ul {
     font-weight: 800;
     color: var(--hlt_clr);
     margin-bottom: 32px;
-    display: inline;
+    /* display: inline; */
 }
 .section-header-span {
     color:var(--txt_clr);
