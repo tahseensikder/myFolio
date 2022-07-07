@@ -46,4 +46,9 @@ $(function(){
     })
     //AOS Slider
     AOS.init();
+    //Venobox 
+new VenoBox({
+        selector: ".popupLink",
+        spinner: "grid",
+});
 })
